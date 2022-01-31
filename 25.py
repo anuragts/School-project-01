@@ -1,6 +1,6 @@
 import random
 email = []
-num = int(input("How many emails do you want to generate? "))
+num = int(input("How many emails do you want to generate : "))
 for i in range(1,num+1):
     value = str(input("Enter email_id = "))
     email.append(value+'\n')
