@@ -24,4 +24,5 @@ def fn():
     for word, count in word_counter.most_common(n_print):
         print(word, ":", count)
     fin.close()
-fn()
+if __name__ == "__main__":
+    fn()
