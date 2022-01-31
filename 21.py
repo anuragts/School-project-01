@@ -11,11 +11,11 @@ def fibonacci(nterms):
     else:
         print("Fibonacci sequence : ")
         while count <nterms:
-            print(n1)
+            print(n1,end=" ")
             nth = n1 + n2
             n1 = n2
             n2 = nth
             count += 1
-nterms = int(input("How many terms? "))
+nterms = int(input("How many terms : "))
 if __name__ == '__main__':
     fibonacci(nterms)
