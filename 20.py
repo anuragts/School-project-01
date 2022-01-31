@@ -19,7 +19,7 @@ def fn():
 
     n_print = int(input("How many most common words to print :"))
 
-    print("\n OK. The {} most common word are as follows \n".format(n_print))
+    print(f"\n OK. The {n_print} most common word are as follows \n")
     word_counter = co.Counter(d)
     for word, count in word_counter.most_common(n_print):
         print(word, ":", count)
