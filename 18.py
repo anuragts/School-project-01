@@ -8,7 +8,7 @@ def text_count(vowels):
     for i in object:
         if i in vowels:
             count += 1
-    print(count)
+    print(f"The numbers of vowel are {count}")
     f.close()
 if __name__ == "__main__":
     vowels = ['a', 'e', 'i', 'o', 'u']
